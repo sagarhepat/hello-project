@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.advtraining.advtraining.core.CleanupServiceImpl">
+    <OCD id="org.advtraining.advtraining.core.CleanupServiceImpl" name="%org.advtraining.advtraining.core.CleanupServiceImpl.name" description="%org.advtraining.advtraining.core.CleanupServiceImpl.description">
+        <AD id="scheduler.expression" type="String" default="*/5\ *\ *\ *\ *\ ?" name="%org.advtraining.advtraining.core.CleanupServiceImpl.scheduler.expression.name" description="%org.advtraining.advtraining.core.CleanupServiceImpl.scheduler.expression.description"/>
+        <AD id="cleanupPath" type="String" default="/apps/mypath" name="%org.advtraining.advtraining.core.CleanupServiceImpl.cleanupPath.name" description="%org.advtraining.advtraining.core.CleanupServiceImpl.cleanupPath.description"/>
+    </OCD>
+    <Designate pid="org.advtraining.advtraining.core.CleanupServiceImpl">
+        <Object ocdref="org.advtraining.advtraining.core.CleanupServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

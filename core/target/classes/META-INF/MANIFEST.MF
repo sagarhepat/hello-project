@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1468924009336
+Build-Jdk: 1.8.0_91
+Built-By: sagar.hepat
+Bundle-Description: Core bundle for advtraining
+Bundle-ManifestVersion: 2
+Bundle-Name: advtraining - Core
+Bundle-SymbolicName: org.advtraining.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.advtraining.advtraining.core;version="1.0";uses:="ja
+ vax.jcr,javax.jcr.observation,javax.servlet,org.apache.sling.api,org.ap
+ ache.sling.api.servlets,org.apache.sling.jcr.api,org.osgi.framework,org
+ .osgi.service.component",org.advtraining.advtraining.core.filters;uses:
+ ="javax.servlet";version="0.0.1",org.advtraining.advtraining.core.liste
+ ners;uses:="org.osgi.service.event";version="0.0.1",org.advtraining.adv
+ training.core.models;uses:="javax.annotation,javax.inject,org.apache.sl
+ ing.api.resource,org.apache.sling.models.annotations";version="0.0.1",o
+ rg.advtraining.advtraining.core.schedulers;version="0.0.1",org.advtrain
+ ing.advtraining.core.servlets;uses:="javax.servlet,org.apache.sling.api
+ ,org.apache.sling.api.servlets";version="0.0.1"
+Import-Package: com.day.cq.wcm.api;version="[1.2,2)",javax.annotation,ja
+ vax.inject;version="[0.0,1)",javax.jcr;version="[2.0,3)",javax.jcr.obse
+ rvation;version="[2.0,3)",javax.jcr.query;version="[2.0,3)",javax.jcr.q
+ uery.qom;version="[2.0,3)",javax.servlet,org.advtraining.advtraining.co
+ re;version="[1.0,1.1)",org.apache.sling.api;version="[2.3,3)",org.apach
+ e.sling.api.request;version="[2.4,3)",org.apache.sling.api.resource;ver
+ sion="[2.5,3)",org.apache.sling.api.servlets;version="[2.1,3)",org.apac
+ he.sling.commons.json;version="[2.0,3)",org.apache.sling.commons.osgi;v
+ ersion="[2.2,3)",org.apache.sling.jcr.api;version="[2.2,3)",org.apache.
+ sling.models.annotations;version="[1.0,2)",org.apache.sling.settings;ve
+ rsion="[1.3,2)",org.osgi.framework;version="[1.5,2)",org.osgi.service.c
+ omponent;version="[1.1,2)",org.osgi.service.event;version="[1.2,2)",org
+ .slf4j;version="[1.5,2)"
+Provide-Capability: osgi.service;effective:=active;objectClass="javax.se
+ rvlet.Servlet";service.vendor=Adobe,osgi.service;effective:=active;obje
+ ctClass="java.lang.Runnable";scheduler.expression="*/30 * * * * ?";sche
+ duler.concurrent=false;service.vendor=Adobe,osgi.service;effective:=act
+ ive;objectClass="org.advtraining.advtraining.core.RepositoryService";se
+ rvice.vendor=Adobe,osgi.service;effective:=active;objectClass="javax.se
+ rvlet.Filter";service.ranking=-700;sling.filter.scope=REQUEST;service.v
+ endor=Adobe,osgi.service;effective:=active;objectClass="org.osgi.servic
+ e.event.EventHandler";event.topics="org/apache/sling/api/resource/Resou
+ rce/*";service.vendor=Adobe,osgi.service;effective:=active;objectClass=
+ "java.lang.Runnable";scheduler.expression="*/5 * * * * ?";cleanupPath="
+ /apps/mypath";service.vendor=Adobe
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.apache.sling.jcr.api.SlingRepository)",osgi.service;effective:=act
+ ive;filter:="(objectClass=javax.jcr.Repository)",osgi.ee;filter:="(&(os
+ gi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/org.advtraining.advtraining.core.schedulers.
+ SimpleScheduledTask.xml,OSGI-INF/org.advtraining.advtraining.core.impl.
+ RepositoryServiceImpl.xml,OSGI-INF/org.advtraining.advtraining.core.lis
+ teners.SimpleResourceListener.xml,OSGI-INF/org.advtraining.advtraining.
+ core.servlets.SimpleServlet.xml,OSGI-INF/org.advtraining.advtraining.co
+ re.filters.LoggingFilter.xml,OSGI-INF/org.advtraining.advtraining.core.
+ SearchServlet.xml,OSGI-INF/org.advtraining.advtraining.core.MySafeMetho
+ dServlet.xml,OSGI-INF/org.advtraining.advtraining.core.TitlePropertyLis
+ tener.xml,OSGI-INF/org.advtraining.advtraining.core.CleanupServiceImpl.
+ xml
+Sling-Model-Packages: org.advtraining.advtraining.core
+Tool: Bnd-2.3.0.201405100607

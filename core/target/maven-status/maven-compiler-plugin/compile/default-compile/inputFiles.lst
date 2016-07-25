@@ -1,0 +1,13 @@
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\filters\LoggingFilter.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\Activator.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\servlets\SimpleServlet.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\SearchServlet.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\TitlePropertyListener.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\listeners\SimpleResourceListener.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\impl\RepositoryServiceImpl.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\RepositoryService.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\CleanupServiceImpl.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\package-info.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\models\HelloWorldModel.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\MySafeMethodServlet.java
+D:\workspace1\advtraining\core\src\main\java\org\advtraining\advtraining\core\schedulers\SimpleScheduledTask.java

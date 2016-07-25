@@ -1,0 +1,13 @@
+org\advtraining\advtraining\core\TitlePropertyListener.class
+org\advtraining\advtraining\core\MySafeMethodServlet.class
+org\advtraining\advtraining\core\Activator.class
+org\advtraining\advtraining\core\package-info.class
+org\advtraining\advtraining\core\schedulers\SimpleScheduledTask.class
+org\advtraining\advtraining\core\servlets\SimpleServlet.class
+org\advtraining\advtraining\core\impl\RepositoryServiceImpl.class
+org\advtraining\advtraining\core\listeners\SimpleResourceListener.class
+org\advtraining\advtraining\core\SearchServlet.class
+org\advtraining\advtraining\core\CleanupServiceImpl.class
+org\advtraining\advtraining\core\filters\LoggingFilter.class
+org\advtraining\advtraining\core\models\HelloWorldModel.class
+org\advtraining\advtraining\core\RepositoryService.class

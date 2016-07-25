@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.advtraining.advtraining.core.impl.RepositoryServiceImpl">
+    <OCD id="org.advtraining.advtraining.core.impl.RepositoryServiceImpl" name="%org.advtraining.advtraining.core.impl.RepositoryServiceImpl.name" description="%org.advtraining.advtraining.core.impl.RepositoryServiceImpl.description"/>
+    <Designate pid="org.advtraining.advtraining.core.impl.RepositoryServiceImpl">
+        <Object ocdref="org.advtraining.advtraining.core.impl.RepositoryServiceImpl"/>
+    </Designate>
+</metatype:MetaData>
